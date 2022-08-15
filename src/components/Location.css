@@ -1,0 +1,32 @@
+.location-bar {
+    color: #fff;
+
+}
+
+.title-location {
+    display: flex;
+    padding: 20px 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.data-location {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 100px;
+    margin-bottom: 50px;
+    background-color: rgb(51, 54, 84);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+  }
+
+  .data-location li {
+    padding: 20px 50px;
+  }
+

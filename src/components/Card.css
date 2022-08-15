@@ -1,0 +1,75 @@
+.card {
+    display: flex;
+    position: relative;
+    padding: 25px 20px;
+    flex-wrap: wrap;
+    background-color: rgb(51, 54, 84);
+    border-radius: 40px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.card:hover {
+    background: #23074d;
+    background: -webkit-linear-gradient(to right, #cc5333, #23074d);
+    background: linear-gradient(to right, #cc5333, #23074d);
+
+    transition: ease .40s;
+}
+
+.status {
+    display: flex;
+    margin-right: 30px;
+    flex-wrap: wrap;
+}
+.status span {
+    margin-left: 10px;
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: greenyellow;
+    width: 10px;
+    height: 10px;
+    margin-top: 7.5px;
+}
+
+.circle-dead {
+    border-radius: 50%;
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    margin-top: 7.5px;
+}
+
+.pm {
+    margin-left: 30px;
+}
+
+.card-img {
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    
+}
+
+span {
+    color: rgb(165, 168, 176);
+}
+
+h3 {
+    width: 150px;
+    padding-bottom: 10px;
+}
+
+.data-resident {
+    width: 200px;
+}
+
+.status-info {
+    color: #fff;
+}
