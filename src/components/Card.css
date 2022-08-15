@@ -75,48 +75,22 @@ h3 {
 }
 
 @media screen and (max-width: 570px) {
-  .card {
-    width:350px;
-    display: flex;
-    flex-direction: column;
-    object-fit: cover;
-    justify-content: center;
-    margin-right: 50px;
-  }
-
-  h3 {
-    width: 200px;
-    text-align: center;
-    padding-left: 45px;
-    padding-top: 15px;
-  }
-}
-
-@media screen and (min-width: 320px){
     .card {
-        width: 300px;
-        display: flex;
+        width: 280px;
+        padding: 10px 5px;
+        overflow:hidden;
+        object-fit: cover;
+    }
+    .card-img {
+        box-shadow: none;
+        object-fit: cover;
+        border-radius: 15px 15px 15px 15px;
+        top: 0;
         margin: 0;
         padding: 0;
     }
-
-    .pm {
-        padding: 0;
-        margin: 0;
+    img {
+        width: 100%;
     }
-
-    h3 {
-        text-align: center;
-        padding-right: 30px;
-    }
-    .data-resident {
-        margin: 10px 30px;
-        padding: 10px;
-      }
-    .card-img{
-        margin: 0;
-        padding: 0;
-      }
-
-
+    
 }
