@@ -73,3 +73,21 @@ h3 {
 .status-info {
     color: #fff;
 }
+
+@media screen and (max-width: 570px) {
+  .card {
+    width:350px;
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    justify-content: center;
+    margin-right: 50px;
+  }
+
+  h3 {
+    width: 200px;
+    text-align: center;
+    padding-left: 45px;
+    padding-top: 15px;
+  }
+}

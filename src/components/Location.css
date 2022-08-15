@@ -26,7 +26,23 @@
 
   }
 
+.data-location:hover {
+    background: #23074d;
+    background: -webkit-linear-gradient(to right, #cc5333, #23074d);
+    background: linear-gradient(to right, #cc5333, #23074d);
+}
+
   .data-location li {
     padding: 20px 50px;
   }
 
+@media screen and (max-width: 570px) {
+  .data-location {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}

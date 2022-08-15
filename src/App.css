@@ -76,3 +76,27 @@ button:hover {
   background-color: rgb(206, 209, 222);
   color: black;
 }
+
+@media screen and (max-width: 570px) {
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  input {
+    margin-bottom:10px;
+    border-radius: 10px 10px 10px 10px;
+  }
+  button {
+    border-radius: 10px 10px 10px 10px;
+  }
+  .bg {
+    background-image: url(./img/bg.jpg);
+    height: 85vh;
+    background-size: cover;
+    background-position: center;
+  }
+  main{
+    background: none;
+  }
+}
