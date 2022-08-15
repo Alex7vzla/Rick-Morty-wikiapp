@@ -91,3 +91,32 @@ h3 {
     padding-top: 15px;
   }
 }
+
+@media screen and (min-width: 320px){
+    .card {
+        width: 300px;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    .pm {
+        padding: 0;
+        margin: 0;
+    }
+
+    h3 {
+        text-align: center;
+        padding-right: 30px;
+    }
+    .data-resident {
+        margin: 10px 30px;
+        padding: 10px;
+      }
+    .card-img{
+        margin: 0;
+        padding: 0;
+      }
+
+
+}

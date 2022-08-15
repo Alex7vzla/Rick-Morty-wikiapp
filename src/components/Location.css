@@ -46,3 +46,15 @@
     text-align: center;
   }
 }
+@media screen and (max-width: 320px) {
+    .data-location {
+      display: flex;
+      flex-direction: column;
+      width: 250px;
+      text-align: center;
+      margin-left: 30px;
+    }
+    .title-location {
+      text-align: center;
+    }
+}
